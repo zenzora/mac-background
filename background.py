@@ -21,7 +21,7 @@ import json
 url = 'https://api.unsplash.com/photos/random?client_id=' + api_key
 
 # Change the Background script
-cmd = """gsettings set org.gnome.desktop.background picture-uri file:///tmp/bg.jpg"""
+cmd = """/usr/bin/gsettings set org.gnome.desktop.background picture-uri file:///tmp/bg.jpg"""
 
 # Iterrate through the URL and json
 
